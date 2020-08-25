@@ -1,1 +1,135 @@
 
+*{
+  box-sizing:border-box;
+  margin: 0%;
+  padding:0%;
+}
+
+
+
+H1 {
+    margin-top:30px;
+    margin-bottom:30px;
+    text-align:center;
+}
+
+section {
+    background-color:#999999; 
+    border: 2px solid black;
+    width: 30%;
+    float: left;
+    margin-left:30px;
+   
+     
+       
+ }
+
+ p{
+   padding:10px;  
+   font-weight: bold; 
+   clear:right;
+   
+ }
+div{
+    position: relative;
+    left: 67%;
+    bottom:1px;
+    width:33%;
+    padding:5px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size:18px;
+   
+    
+    
+    
+    
+   
+ 
+}
+
+
+#Chicken{
+    background-color:#d59898; 
+     
+}
+
+#Beef{
+    background-color:#c14543;
+    color: #ffffff;
+    
+
+    
+}
+#Sushi{
+    background-color:#e5d198;
+}
+
+.row {
+    width:100%
+    }
+    
+
+
+ 
+
+@media (min-width: 992px){
+
+}
+    
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+ section{
+        width:42%;
+         margin-right:5px;
+    }   
+
+     body :nth-child(2) {
+        
+        margin-left:5%;
+        
+         
+    }
+
+     body :nth-child(3) {
+       
+        margin-right:5%;
+         
+    }  
+
+section p {
+    padding:5px;
+}
+
+    body :nth-child(4) {
+        clear:left; 
+        margin-left:5%;
+        margin-right:5px;
+        margin-top:20px;
+        width:87%;
+         
+    }
+
+    body :nth-child(4) div {
+      width:148px;
+      left: 80% ;
+
+    }
+    
+}
+
+
+
+@media (max-width: 767px){
+ 
+
+    section{
+      clear: left;
+      width: 60%;
+      margin-bottom:30px;
+      margin-left:140px;
+    } 
+
+}
