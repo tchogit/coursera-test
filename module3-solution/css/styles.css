@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/* Header  */
+
+#header-nav {
+    background-color: #999999;
+    text-decoration-style: #000000;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand h1 {
+    color: #000000;
+    left: 30px;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-toggle {
+    left: 0px;
+    bottom: 20px;
+}
+
+#collapsable-nav {
+    width: 100%;
+    color: black;
+}
+
+
+/* Navlist */
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#nav-list.nav.navbar-nav.nav-bar-right.visible-xs {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 4px solid black;
+}
+
+.container-fluid>.navbar-collapse,
+.container-fluid>.navbar-header,
+.container>.navbar-collapse,
+.container>.navbar-header {
+    margin-left: 0px;
+}
+
+#Chicken {
+    border-bottom: 3px solid black;
+}
+
+#Beef {
+    border-bottom: 3px solid black;
+}
+
+
+/* paragraph and text */
+
+.container-fluid section {
+    background-color: #999999;
+}
+
+.container-fluid section div {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+@media(min-width:769px) {
+    .navbar {
+        position: relative;
+        height: 100px;
+    }
+    .navbar-brand h1 {
+        position: absolute;
+        left: 15px;
+        clear: left;
+    }
+}
